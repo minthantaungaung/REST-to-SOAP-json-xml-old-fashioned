@@ -1,0 +1,9 @@
+.idea/*
+*.user
+*/obj/*
+/.vs
+/.vscode
+apigee.svici.sys/Properties/PublishProfiles
+apigee.svici.sys/logs
+apigee.svici.sys/bin
+apigee.svici.sys/congfig

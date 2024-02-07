@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<block name="ADDITIONAL_SERVICE_BLOCK">
+	<blocks>
+		<block name="SERVICE_DATA_BLOCK">
+			<fields>
+				<field id="75">
+					<name>Service Start Date</name>
+					<valueDate>{0}</valueDate>
+				</field>
+				<field id="469">
+					<name>Service End Date</name>
+					<valueDate>{1}</valueDate>
+				</field>
+				<field id="300">
+					<name>Service Action Flag</name>
+					<valueString>{2}</valueString>
+				</field>
+			</fields>
+		</block>
+		<block name="PERMANENT_ORDER">
+			<fields>
+				<field id="899">
+					<name>Participant account</name>
+					<valueString>{3}</valueString>
+				</field>
+				<field id="715">
+					<name>Payment amount formula</name>
+					<valueString>{4}</valueString>
+				</field>
+				<field id="516">
+					<name>Start execution date</name>
+					<valueDate>{5}</valueDate>
+				</field>
+			</fields>
+		</block>
+	</blocks>
+</block>

@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:webservices.com.my">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:custProfileEnquiry soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <in0 xsi:type="bean:CustProfileEnquiryReqBean" xmlns:bean="http://beans.webservices.com.my">
+            <fi xsi:type="soapenc:string" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">14688</fi>
+            <pan xsi:type="soapenc:string" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">{0}</pan>
+            <sequenceNo xsi:type="soapenc:string" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">{1}</sequenceNo>
+            <sourceSys xsi:type="soapenc:string" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">KBZ</sourceSys>
+         </in0>
+      </urn:custProfileEnquiry>
+   </soapenv:Body>
+</soapenv:Envelope>

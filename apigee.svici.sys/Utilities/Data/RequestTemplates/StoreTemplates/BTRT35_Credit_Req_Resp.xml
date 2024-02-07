@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:app="http://application.bpc.ru/">
+	<soapenv:Header />
+	<soapenv:Body>
+		<app:storeApplication>
+			<uid>{0}</uid>
+			<application id="{1}">
+				<templateName>{2}</templateName>
+				<instId>{3}</instId>
+				<agentId>{4}</agentId>
+				<block name="{5}">
+					<blocks>
+						<block name="MAIN_BLOCK">
+							<fields>
+								<field id="3">
+									<name>Contract ID</name>
+									<valueString>{6}</valueString>
+								</field>
+							</fields>
+						</block>
+						<block name="CUSTOMER_BLOCK">
+							<fields>
+								<field id="19">
+									<name>Customer ID</name>
+									<valueString>{7}</valueString>
+								</field>
+							</fields>
+						</block>
+						<block name="CARDHOLDER_BLOCK">
+							<blocks>
+								<block name="PERSON_BLOCK">
+									<fields>
+										<field id="24">
+											<name>Person ID</name>
+											<valueString>{8}</valueString>
+										</field>
+										<field id="25">
+											<name>First Name</name>
+											<valueString>{9}</valueString>
+										</field>
+										<field id="27">
+											<name>Surname</name>
+											<valueString>{10}</valueString>
+										</field>
+										<field id="28">
+											<name>Date of Birth</name>
+											<valueDate>{11}</valueDate>
+										</field>
+										<field id="191">
+											<name>Person processing mode</name>
+											<valueNumber>{12}</valueNumber>
+										</field>
+									</fields>
+								</block>
+							</blocks>
+						</block>
+						<block name="CARD_BLOCK">
+							<blocks>
+								<block name="CARD_INIT_BLOCK">
+									<fields>
+										<field id="44">
+											<name>Card Number</name>
+											<valueString>{13}</valueString>
+										</field>
+										<field id="47">
+											<name>Card Type</name>
+											<valueString>{14}</valueString>
+										</field>
+									</fields>
+								</block>
+							</blocks>
+						</block>
+						<block name="ACCOUNT_BLOCK">
+							<blocks>
+								<block name="ACCOUNT_INIT_BLOCK">
+									<fields>
+										<field id="44">
+											<name>Card number filter</name>
+											<valueString>{15}</valueString>
+										</field>
+										<field id="899">
+											<name>Account number</name>
+											<valueString>{16}</valueString>
+										</field>
+										<field id="62">
+											<name>Account Type</name>
+											<valueString>{17}</valueString>
+										</field>
+										<field id="61">
+											<name>Currency Code</name>
+											<valueString>{18}</valueString>
+										</field>
+									</fields>
+								</block>
+							</blocks>
+						</block>
+						{19}
+					</blocks>
+				</block>
+			</application>
+		</app:storeApplication>
+	</soapenv:Body>
+</soapenv:Envelope>

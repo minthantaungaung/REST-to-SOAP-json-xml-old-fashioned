@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:app="http://application.bpc.ru/">
+	<soapenv:Header />
+	<soapenv:Body>
+		<app:storeApplication>
+			<uid>{0}</uid>
+			<application id="{1}">
+				<templateName>{2}</templateName>
+				<instId>{3}</instId>
+				<agentId>{4}</agentId>
+				<block name="{5}">
+					<blocks>
+						<block name="MAIN_BLOCK">
+							<fields>
+								<field id="3">
+									<name>Contract ID</name>
+									<valueString>{6}</valueString>
+								</field>
+								<field id="763">
+									<name>Batch ID</name>
+									<valueString>{7}</valueString>
+								</field>
+							</fields>
+						</block>
+						<block name="CUSTOMER_BLOCK">
+							<fields>
+								<field id="19">
+									<name>Customer ID</name>
+									<valueString>{8}</valueString>
+								</field>
+							</fields>
+						</block>
+						<block name="CARDHOLDER_BLOCK">
+							<blocks>
+								<block name="PERSON_BLOCK">
+									<fields>
+										<field id="24">
+											<name>Person ID</name>
+											<valueString>{9}</valueString>
+										</field>
+										<field id="25">
+											<name>First Name</name>
+											<valueString>{10}</valueString>
+										</field>
+										<field id="27">
+											<name>Surname</name>
+											<valueString>{11}</valueString>
+										</field>
+										<field id="28">
+											<name>Date of Birth</name>
+											<valueDate>{12}</valueDate>
+										</field>
+										<field id="191">
+											<name>Person processing mode</name>
+											<valueNumber>{13}</valueNumber>
+										</field>
+									</fields>
+								</block>
+								<block name="ADDRESS_BLOCK">
+									<fields>
+										<field id="78">
+											<name>Address ID</name>
+											<valueString>{14}</valueString>
+										</field>
+										<field id="79">
+											<name>Address Type</name>
+											<valueString>{15}</valueString>
+										</field>
+										<field id="190">
+											<name>Address processing mode</name>
+											<valueNumber>{16}</valueNumber>
+										</field>
+										<field id="81">
+											<name>Address Line 1</name>
+											<valueString>{17}</valueString>
+										</field>
+										<field id="82">
+											<name>Address Line 2</name>
+											<valueString>{18}</valueString>
+										</field>
+										<field id="88">
+											<name>Primary Phone</name>
+											<valueString>{19}</valueString>
+										</field>
+										<field id="89">
+											<name>Secondary Phone</name>
+											<valueString>{20}</valueString>
+										</field>
+										<field id="90">
+											<name>Mobile Phone</name>
+											<valueString>{21}</valueString>
+										</field>
+										<field id="92">
+											<name>E-mail</name>
+											<valueString>{22}</valueString>
+										</field>
+									</fields>
+								</block>
+							</blocks>
+						</block>
+						<block name="CARD_BLOCK">
+							<blocks>
+								<block name="CARD_INIT_BLOCK">
+									<fields>
+										<field id="44">
+											<name>Card Number</name>
+											<valueString>{23}</valueString>
+										</field>
+										<field id="47">
+											<name>Card Type</name>
+											<valueString>{24}</valueString>
+										</field>
+									</fields>
+								</block>
+								<block name="CARD_DATA_BLOCK">
+									<fields>
+										<field id="51">
+											<name>Embossed Name</name>
+											<valueString>{25}</valueString>
+										</field>
+										<field id="329">
+											<name>Cycle Scheme</name>
+											<valueNumber>{26}</valueNumber>
+										</field>
+										<field id="331">
+											<name>Limits Scheme</name>
+											<valueNumber>{27}</valueNumber>
+										</field>
+										<field id="335">
+											<name>Fee Scheme</name>
+											<valueNumber>{28}</valueNumber>
+										</field>
+										<field id="829">
+											<name>Region list</name>
+											<valueString>{29}</valueString>
+										</field>
+									</fields>
+								</block>
+								<block name="DELIVERY_BLOCK">
+									<fields>
+										<field id="744">
+											<name>Delivery Instructions</name>
+											<valueString>{30}</valueString>
+										</field>
+										<field id="327">
+											<name>Delivery Agent Code</name>
+											<valueString>{31}</valueString>
+										</field>
+									</fields>
+								</block>
+							</blocks>
+						</block>
+						<block name="ACCOUNT_BLOCK">
+							<blocks>
+								<block name="ACCOUNT_INIT_BLOCK">
+									<fields>
+										<field id="60">
+											<name>Account number</name>
+											<valueString>{32}</valueString>
+										</field>
+									</fields>
+								</block>
+							</blocks>
+						</block>
+					{33}
+					</blocks>
+				</block>
+			</application>
+		</app:storeApplication>
+	</soapenv:Body>
+</soapenv:Envelope>

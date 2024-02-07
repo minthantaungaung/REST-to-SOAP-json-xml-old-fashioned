@@ -1,0 +1,9 @@
+﻿<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:aut="http://authorization.bpc.ru/">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<aut:authorize>
+			<login>{0}</login> 
+			<password>{1}</password>
+		</aut:authorize>
+	</soapenv:Body>
+</soapenv:Envelope>

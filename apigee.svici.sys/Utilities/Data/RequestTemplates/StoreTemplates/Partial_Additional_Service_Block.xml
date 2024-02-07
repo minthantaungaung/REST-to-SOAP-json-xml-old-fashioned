@@ -1,0 +1,32 @@
+﻿<block name="ADDITIONAL_SERVICE_BLOCK">
+	<blocks>
+		<block name="SERVICE_DATA_BLOCK">
+			<fields>
+				<field id="76">
+					<name>Service ID</name>
+					<valueString>{0}</valueString>
+				</field>
+				<field id="75">
+					<name>Service Start Date</name>
+					<valueDate>{1}</valueDate>
+				</field>
+				<field id="469">
+					<name>Service End Date</name>
+					<valueDate>{2}</valueDate>
+				</field>
+				<field id="300">
+					<name>Service Action Flag</name>
+					<valueString>{3}</valueString>
+				</field>
+			</fields>
+		</block>
+		<block name="SMS_SERVICE_BLOCK">
+			<fields>
+				<field id="90">
+					<name>Mobile Phone</name>
+					<valueString>{4}</valueString>
+				</field>
+			</fields>
+		</block>
+	</blocks>
+</block>

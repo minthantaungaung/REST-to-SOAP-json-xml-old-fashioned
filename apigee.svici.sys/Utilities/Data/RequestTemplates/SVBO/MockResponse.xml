@@ -1,0 +1,103 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Body>
+      <ns1:custProfileEnquiryResponse soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns1="urn:webservices.com.my">
+         <custProfileEnquiryReturn href="#id0"/>
+      </ns1:custProfileEnquiryResponse>
+      <multiRef id="id0" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns2:CustProfileEnquiryRespBean" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns2="http://beans.webservices.com.my">
+         <alternateEmail xsi:type="soapenc:string" xsi:nil="true"/>
+         <annualIncome xsi:type="soapenc:string" xsi:nil="true"/>
+         <bigID xsi:type="soapenc:string" xsi:nil="true"/>
+         <billingOption xsi:type="soapenc:string">H</billingOption>
+         <crn xsi:type="soapenc:string">98145</crn>
+         <dob xsi:type="soapenc:string" xsi:nil="true"/>
+         <emailAddress xsi:type="soapenc:string">kbzitops.card@gmail.com</emailAddress>
+         <embossName xsi:type="soapenc:string">VISA PREPAID USD CTL</embossName>
+         <emerContcPers xsi:type="soapenc:string"/>
+         <emerMobile xsi:type="soapenc:string" xsi:nil="true"/>
+         <emerRelation xsi:type="soapenc:string" xsi:nil="true"/>
+         <emerTel xsi:type="soapenc:string"/>
+         <fi xsi:type="soapenc:string">14688</fi>
+         <gender xsi:type="soapenc:string" xsi:nil="true"/>
+         <immigVisaExpDate xsi:type="soapenc:string" xsi:nil="true"/>
+         <industryCode xsi:type="soapenc:string" xsi:nil="true"/>
+         <lastUpdateTMS xsi:type="soapenc:string">20230710074739783</lastUpdateTMS>
+         <mailingAddress1 xsi:type="soapenc:string">222/18, BO BAHTOO, INSEIN</mailingAddress1>
+         <mailingAddress2 xsi:type="soapenc:string"/>
+         <mailingAddress3 xsi:type="soapenc:string"/>
+         <mailingAddress4 xsi:type="soapenc:string"/>
+         <mailingCountry xsi:type="soapenc:string">MM</mailingCountry>
+         <mailingPostcode xsi:type="soapenc:string">11011</mailingPostcode>
+         <mailingState xsi:type="soapenc:string">YANGON</mailingState>
+         <mailingTel xsi:type="soapenc:string">09423745216</mailingTel>
+         <mailingTown xsi:type="soapenc:string">INSEIN</mailingTown>
+         <maritalStatus xsi:type="soapenc:string">1</maritalStatus>
+         <ministerialDiplomatic xsi:type="soapenc:string"/>
+         <mobileNo xsi:type="soapenc:string">09423745216</mobileNo>
+         <motherMaidenName xsi:type="soapenc:string">U ONE</motherMaidenName>
+         <name xsi:type="soapenc:string">INF ONE</name>
+         <nationality xsi:type="soapenc:string">MM</nationality>
+         <natureOfBusiness xsi:type="soapenc:string" xsi:nil="true"/>
+         <newID xsi:type="soapenc:string">P-Z0000040</newID>
+         <newIdIndicator xsi:type="soapenc:string">P</newIdIndicator>
+         <occupation xsi:type="soapenc:string"/>
+         <officeAddress1 xsi:type="soapenc:string">123. JUNCTION SQUARE</officeAddress1>
+         <officeAddress2 xsi:type="soapenc:string"/>
+         <officeAddress3 xsi:type="soapenc:string"/>
+         <officeAddress4 xsi:type="soapenc:string"/>
+         <officeCountry xsi:type="soapenc:string">MM</officeCountry>
+         <officeFax xsi:type="soapenc:string"/>
+         <officeName xsi:type="soapenc:string">YAHOO</officeName>
+         <officePostcode xsi:type="soapenc:string">11011</officePostcode>
+         <officeState xsi:type="soapenc:string">YANGON</officeState>
+         <officeTel1 xsi:type="soapenc:string"/>
+         <officeTel2 xsi:type="soapenc:string"/>
+         <officeTown xsi:type="soapenc:string">INSEIN</officeTown>
+         <oldIC xsi:type="soapenc:string" xsi:nil="true"/>
+         <pan xsi:type="soapenc:string">4067160000303671</pan>
+         <placeOfBirth xsi:type="soapenc:string" xsi:nil="true"/>
+         <positionHeld xsi:type="soapenc:string" xsi:nil="true"/>
+         <prStatus xsi:type="soapenc:string" xsi:nil="true"/>
+         <preferredLanguage xsi:type="soapenc:string"/>
+         <prevEmpAddress1 xsi:type="soapenc:string" xsi:nil="true"/>
+         <prevEmpAddress2 xsi:type="soapenc:string" xsi:nil="true"/>
+         <prevEmpAddress3 xsi:type="soapenc:string" xsi:nil="true"/>
+         <prevEmpAddress4 xsi:type="soapenc:string" xsi:nil="true"/>
+         <prevEmpCountry xsi:type="soapenc:string" xsi:nil="true"/>
+         <prevEmpName xsi:type="soapenc:string" xsi:nil="true"/>
+         <prevEmpPostcode xsi:type="soapenc:string" xsi:nil="true"/>
+         <prevEmpTel xsi:type="soapenc:string" xsi:nil="true"/>
+         <prevEmpTown xsi:type="soapenc:string" xsi:nil="true"/>
+         <prevEmpYear xsi:type="soapenc:string" xsi:nil="true"/>
+         <race xsi:type="soapenc:string" xsi:nil="true"/>
+         <residenceAddress1 xsi:type="soapenc:string" xsi:nil="true"/>
+         <residenceAddress2 xsi:type="soapenc:string" xsi:nil="true"/>
+         <residenceAddress3 xsi:type="soapenc:string" xsi:nil="true"/>
+         <residenceAddress4 xsi:type="soapenc:string" xsi:nil="true"/>
+         <residenceCountry xsi:type="soapenc:string" xsi:nil="true"/>
+         <residencePostcode xsi:type="soapenc:string" xsi:nil="true"/>
+         <residenceSince xsi:type="soapenc:string" xsi:nil="true"/>
+         <residenceState xsi:type="soapenc:string" xsi:nil="true"/>
+         <residenceTel xsi:type="soapenc:string">09423745216</residenceTel>
+         <residenceTown xsi:type="soapenc:string" xsi:nil="true"/>
+         <residenceType xsi:type="soapenc:string" xsi:nil="true"/>
+         <responseCode xsi:type="soapenc:string">000</responseCode>
+         <responseDescription xsi:type="soapenc:string">Complete Response Without Errors</responseDescription>
+         <sequenceNo xsi:type="soapenc:string">375253036712</sequenceNo>
+         <spouseAddress1 xsi:type="soapenc:string" xsi:nil="true"/>
+         <spouseAddress2 xsi:type="soapenc:string" xsi:nil="true"/>
+         <spouseAddress3 xsi:type="soapenc:string" xsi:nil="true"/>
+         <spouseAddress4 xsi:type="soapenc:string" xsi:nil="true"/>
+         <spouseCountry xsi:type="soapenc:string" xsi:nil="true"/>
+         <spouseId xsi:type="soapenc:string" xsi:nil="true"/>
+         <spouseName xsi:type="soapenc:string" xsi:nil="true"/>
+         <spousePostcode xsi:type="soapenc:string" xsi:nil="true"/>
+         <spouseTel xsi:type="soapenc:string" xsi:nil="true"/>
+         <spouseTown xsi:type="soapenc:string" xsi:nil="true"/>
+         <title xsi:type="soapenc:string" xsi:nil="true"/>
+         <workNature xsi:type="soapenc:string">2</workNature>
+         <altEmailAddress xsi:type="soapenc:string" xsi:nil="true"/>
+         <hmeTel xsi:type="soapenc:string" xsi:nil="true"/>
+         <officeTelExt1 xsi:type="soapenc:string"/>
+      </multiRef>
+   </soapenv:Body>
+</soapenv:Envelope>

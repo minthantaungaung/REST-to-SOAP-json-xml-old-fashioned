@@ -1,0 +1,151 @@
+﻿<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:app="http://application.bpc.ru/">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<app:storeApplication>
+			<uid>{0}</uid>
+			<application id="{1}">
+				<templateName>{2}</templateName>
+				<instId>{3}</instId>
+				<agentId>{4}</agentId>
+				<block name="{5}">
+					<blocks>
+						<block name="CUSTOMER_BLOCK">
+							<blocks>
+								<block name="DOCUMENT_BLOCK">
+									<fields>
+										<field id="17">
+											<name>Document Type</name>
+											<valueString>{6}</valueString>
+										</field>
+										<field id="18">
+											<name>Number</name>
+											<valueString>{7}</valueString>
+										</field>
+										<field id="190">
+											<name>Document processing mode</name>
+											<valueNumber>{8}</valueNumber>
+										</field>
+									</fields>
+								</block>
+							</blocks>
+							<fields>
+								<field id="19">
+									<name>Customer ID</name>
+									<valueString>{9}</valueString>
+								</field>
+							</fields>
+						</block>
+						<block name="CONTACT_INFORMATION_BLOCK">
+							<blocks>
+								<block name="PERSON_BLOCK">
+									<fields>
+										<field id="24">
+											<name>Person ID</name>
+											<valueString>{10}</valueString>
+										</field>
+										<field id="25">
+											<name>First Name</name>
+											<valueString>{11}</valueString>
+										</field>
+										<field id="27">
+											<name>Surname</name>
+											<valueString>{12}</valueString>
+										</field>
+										<field id="28">
+											<name>Date of Birth</name>
+											<valueDate>{13}</valueDate>
+										</field>
+										<field id="17">
+											<name>Type of the persons ID</name>
+											<valueString>{14}</valueString>
+										</field>
+										<field id="18">
+											<name>Number of the persons ID</name>
+											<valueString>{15}</valueString>
+										</field>
+										<field id="191">
+											<name>Person processing mode</name>
+											<valueNumber>{16}</valueNumber>
+										</field>
+										<field id="11">
+											<name>New First Name</name>
+											<valueString>{17}</valueString>
+										</field>
+										<field id="10">
+											<name>New Surname</name>
+											<valueString>{18}</valueString>
+										</field>
+										<field id="231">
+											<name>New Date of Birth</name>
+											<valueDate>{19}</valueDate>
+										</field>
+										<field id="34">
+											<name>New Sex</name>
+											<valueString>{20}</valueString>
+										</field>
+										<field id="35">
+											<name>New Marital Status</name>
+											<valueString>{21}</valueString>
+										</field>
+										<field id="491">
+											<name>New type of the person's ID</name>
+											<valueString>{22}</valueString>
+										</field>
+										<field id="492">
+											<name>New number of the person's ID</name>
+											<valueString>{23}</valueString>
+										</field>
+									</fields>
+								</block>
+								<block name="ADDRESS_BLOCK">
+									<fields>
+										<field id="78">
+											<name>Address ID</name>
+											<valueString>{24}</valueString>
+										</field>
+										<field id="79">
+											<name>Address Type</name>
+											<valueString>{25}</valueString>
+										</field>
+										<field id="190">
+											<name>Address processing mode</name>
+											<valueNumber>{26}</valueNumber>
+										</field>
+										<field id="81">
+											<name>Address Line 1</name>
+											<valueString>{27}</valueString>
+										</field>
+										<field id="733">
+											<name>New Address Line 1</name>
+											<valueString>{28}</valueString>
+										</field>
+										<field id="82">
+											<name>Address Line 2</name>
+											<valueString>{29}</valueString>
+										</field>
+										<field id="88">
+											<name>Primary Phone</name>
+											<valueString>{30}</valueString>
+										</field>
+										<field id="89">
+											<name>Secondary Phone</name>
+											<valueString>{31}</valueString>
+										</field>
+										<field id="90">
+											<name>Mobile Phone</name>
+											<valueString>{32}</valueString>
+										</field>
+										<field id="92">
+											<name>E-mail</name>
+											<valueString>{33}</valueString>
+										</field>
+									</fields>
+								</block>
+							</blocks>
+						</block>
+					</blocks>
+				</block>
+			</application>
+		</app:storeApplication>
+	</soapenv:Body>
+</soapenv:Envelope>

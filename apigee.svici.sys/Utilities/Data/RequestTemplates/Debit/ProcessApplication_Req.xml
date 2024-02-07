@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:app="http://application.bpc.ru/">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<app:processApplication>
+			<!--Optional:-->
+			<uid>{0}</uid>
+			<!--Optional:-->
+			<applicationId>{1}</applicationId>
+		</app:processApplication>
+	</soapenv:Body>
+</soapenv:Envelope>
